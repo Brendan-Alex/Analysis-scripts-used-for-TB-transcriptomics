@@ -1,0 +1,12 @@
+# Exact versions used for every result in the manuscript (Windows 11, 12 CPU, 10 workers).
+# Seeded reproducibility (seed 42 throughout) holds WITHIN these versions. scikit-learn has
+# changed the numerical behaviour of mutual_info_classif, MLPClassifier and RandomForestClassifier
+# across releases, so a different version may shift gene selection and the reported AUCs.
+# Python 3.14.7
+numpy==2.5.4
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.10.7
+openpyxl==3.1.5
+requests==2.32.5
